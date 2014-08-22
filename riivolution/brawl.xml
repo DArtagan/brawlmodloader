@@ -11,6 +11,10 @@
 					<patch id="brawlminus" />
 					<patch id="ocarina pm 3.02" />
 				</choice>
+				<choice name="Brawl +">
+					<patch id="brawlplus" />
+					<patch id="ocarina pm 3.02" />
+				</choice>
 			</option>
 			<option name="Hook" default="1">
 				<choice name="VI"><patch id="ocarina pm 3.02 base_vi" /></choice>
@@ -522,6 +526,96 @@
 		<file external="/brawlmods/brawlminus/system/common3.pac" disc="/system/common3_en.pac" />
 		<file external="/brawlmods/brawlminus/system/common4.pac" disc="/system/common4_en.pac" />
 		<file external="/brawlmods/brawlminus/system/common5.pac" disc="/system/common5_en.pac" />
+	</patch>
+	<patch id="brawlplus">
+		<memory valuefile="/brawlmods/brawlplus/RSBE01.gct" offset="0x00570000" />
+		<file external="/brawlmods/brawlplus/system/common3.pac" disc="/system/common3_en.pac" />
+		<file external="/brawlmods/brawlplus/system/common5.pac" disc="/system/common5_en.pac" />
+		<file external="/brawlmods/brawlplus/menu2/mu_menumain.pac" disc="/menu2/mu_menumain_en.pac" />
+		<file external="/brawlmods/brawlplus/menu2/sc_title.pac" disc="/menu2/sc_title_en.pac" />
+		<file external="/brawlmods/brawlplus/fighter/captain/FitCaptain.pac" disc="/fighter/captain/FitCaptain.pac" />
+		<file external="/brawlmods/brawlplus/fighter/dedede/FitDedede.pac" disc="/fighter/dedede/FitDedede.pac" />
+		<file external="/brawlmods/brawlplus/fighter/diddy/FitDiddy.pac" disc="/fighter/diddy/FitDiddy.pac" />
+		<file external="/brawlmods/brawlplus/fighter/donkey/FitDonkey.pac" disc="/fighter/donkey/FitDonkey.pac" />
+		<file external="/brawlmods/brawlplus/fighter/falco/FitFalco.pac" disc="/fighter/falco/FitFalco.pac" />
+		<file external="/brawlmods/brawlplus/fighter/falco/FitFalcoMotionEtc.pac" disc="/fighter/falco/FitFalcoMotionEtc.pac" />
+		<file external="/brawlmods/brawlplus/fighter/fox/FitFox.pac" disc="/fighter/fox/FitFox.pac" />
+		<file external="/brawlmods/brawlplus/fighter/fox/FitFoxMotionEtc.pac" disc="/fighter/fox/FitFoxMotionEtc.pac" />
+		<file external="/brawlmods/brawlplus/fighter/gamewatch/FitGameWatch.pac" disc="/fighter/gamewatch/FitGameWatch.pac" />
+		<file external="/brawlmods/brawlplus/fighter/ganon/FitGanon.pac" disc="/fighter/ganon/FitGanon.pac" />
+		<file external="/brawlmods/brawlplus/fighter/ike/FitIke.pac" disc="/fighter/ike/FitIke.pac" />
+		<file external="/brawlmods/brawlplus/fighter/kirby/FitKirby.pac" disc="/fighter/kirby/FitKirby.pac" />
+		<file external="/brawlmods/brawlplus/fighter/koopa/FitKoopa.pac" disc="/fighter/koopa/FitKoopa.pac" />
+		<file external="/brawlmods/brawlplus/fighter/link/FitLink.pac" disc="/fighter/link/FitLink.pac" />
+		<file external="/brawlmods/brawlplus/fighter/lucario/FitLucario.pac" disc="/fighter/lucario/FitLucario.pac" />
+		<file external="/brawlmods/brawlplus/fighter/lucas/FitLucas.pac" disc="/fighter/lucas/FitLucas.pac" />
+		<file external="/brawlmods/brawlplus/fighter/luigi/FitLuigi.pac" disc="/fighter/luigi/FitLuigi.pac" />
+		<file external="/brawlmods/brawlplus/fighter/mario/FitMario.pac" disc="/fighter/mario/FitMario.pac" />
+		<file external="/brawlmods/brawlplus/fighter/marth/FitMarth.pac" disc="/fighter/marth/FitMarth.pac" />
+		<file external="/brawlmods/brawlplus/fighter/marth/FitMarthMotionEtc.pac" disc="/fighter/marth/FitMarthMotionEtc.pac" />
+		<file external="/brawlmods/brawlplus/fighter/metaknight/FitMetaknight.pac" disc="/fighter/metaknight/FitMetaknight.pac" />
+		<file external="/brawlmods/brawlplus/fighter/ness/FitNess.pac" disc="/fighter/ness/FitNess.pac" />
+		<file external="/brawlmods/brawlplus/fighter/peach/FitPeach.pac" disc="/fighter/peach/FitPeach.pac" />
+		<file external="/brawlmods/brawlplus/fighter/pikachu/FitPikachu.pac" disc="/fighter/pikachu/FitPikachu.pac" />
+		<file external="/brawlmods/brawlplus/fighter/pikmin/FitPikmin.pac" disc="/fighter/pikmin/FitPikmin.pac" />
+		<file external="/brawlmods/brawlplus/fighter/pit/FitPit.pac" disc="/fighter/pit/FitPit.pac" />
+		<file external="/brawlmods/brawlplus/fighter/pokefushigisou/FitPokeFushigisou.pac" disc="/fighter/pokefushigisou/FitPokeFushigisou.pac" />
+		<file external="/brawlmods/brawlplus/fighter/pokelizardon/FitPokeLizardon.pac" disc="/fighter/pokelizardon/FitPokeLizardon.pac" />
+		<file external="/brawlmods/brawlplus/fighter/pokezenigame/FitPokeZenigame.pac" disc="/fighter/pokezenigame/FitPokeZenigame.pac" />
+		<file external="/brawlmods/brawlplus/fighter/popo/FitPopo.pac" disc="/fighter/popo/FitPopo.pac" />
+		<file external="/brawlmods/brawlplus/fighter/purin/FitPurin.pac" disc="/fighter/purin/FitPurin.pac" />
+		<file external="/brawlmods/brawlplus/fighter/robot/FitRobot.pac" disc="/fighter/robot/FitRobot.pac" />
+		<file external="/brawlmods/brawlplus/fighter/samus/FitSamus.pac" disc="/fighter/samus/FitSamus.pac" />
+		<file external="/brawlmods/brawlplus/fighter/sheik/FitSheik.pac" disc="/fighter/sheik/FitSheik.pac" />
+		<file external="/brawlmods/brawlplus/fighter/snake/FitSnake.pac" disc="/fighter/snake/FitSnake.pac" />
+		<file external="/brawlmods/brawlplus/fighter/sonic/FitSonic.pac" disc="/fighter/sonic/FitSonic.pac" />
+		<file external="/brawlmods/brawlplus/fighter/szerosuit/FitSZerosuit.pac" disc="/fighter/szerosuit/FitSZerosuit.pac" />
+		<file external="/brawlmods/brawlplus/fighter/toonlink/FitToonLink.pac" disc="/fighter/toonlink/FitToonLink.pac" />
+		<file external="/brawlmods/brawlplus/fighter/wario/FitWario.pac" disc="/fighter/wario/FitWario.pac" />
+		<file external="/brawlmods/brawlplus/fighter/wolf/FitWolf.pac" disc="/fighter/wolf/FitWolf.pac" />
+		<file external="/brawlmods/brawlplus/fighter/yoshi/FitYoshi.pac" disc="/fighter/yoshi/FitYoshi.pac" />
+		<file external="/brawlmods/brawlplus/fighter/zelda/FitZelda.pac" disc="/fighter/zelda/FitZelda.pac" />
+		<file external="/brawlmods/brawlplus/module/st_custom1.rel" disc="/module/st_custom1.rel" />
+		<file external="/brawlmods/brawlplus/module/st_custom2.rel" disc="/module/st_custom2.rel" />
+		<file external="/brawlmods/brawlplus/module/st_jungle.rel" disc="/module/st_jungle.rel" />
+		<file external="/brawlmods/brawlplus/module/st_donkey.rel" disc="/module/st_donkey.rel" />
+		<file external="/brawlmods/brawlplus/module/st_earth.rel" disc="/module/st_earth.rel" />
+		<file external="/brawlmods/brawlplus/module/st_famicom.rel" disc="/module/st_famicom.rel" />
+		<file external="/brawlmods/brawlplus/module/st_metalgear.rel" disc="/module/st_metalgear.rel" />
+		<file external="/brawlmods/brawlplus/module/st_newpork.rel" disc="/module/st_newpork.rel" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGBATTLEFIELD.PAC" disc="/stage/melee/STGBATTLEFIELD.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGCRAYON.pac" disc="/stage/melee/STGCRAYON.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGCUSTOM1.pac" disc="/stage/melee/STGCUSTOM1.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGCUSTOM2.PAC" disc="/stage/melee/STGCUSTOM2.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGDOLPIC.pac" disc="/stage/melee/STGDOLPIC.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGDONKEY.pac" disc="/stage/melee/STGDONKEY.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGDXGARDEN.pac" disc="/stage/melee/STGDXGARDEN.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGDXGREENS.pac" disc="/stage/melee/STGDXGREENS.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGDXPSTADIUM.PAC" disc="/stage/melee/STGDXPSTADIUM_en.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGDXSHRINE.pac" disc="/stage/melee/STGDXSHRINE.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGEARTH.pac" disc="/stage/melee/STGEARTH.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGEMBLEM.pac" disc="/stage/melee/STGEMBLEM.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGFAMICOM.pac" disc="/stage/melee/STGFAMICOM.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGFINAL.PAC" disc="/stage/melee/STGFINAL.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGFZERO.pac" disc="/stage/melee/STGFZERO.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGHALBERD.pac" disc="/stage/melee/STGHALBERD.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGICE.pac" disc="/stage/melee/STGICE.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGJUNGLE.PAC" disc="/stage/melee/STGJUNGLE.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGMADEIN.PAC" disc="/stage/melee/STGMADEIN.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGMANSION.pac" disc="/stage/melee/STGMANSION.pac" /> 
+		<file external="/brawlmods/brawlplus/stage/melee/STGMETALGEAR_00.pac" disc="/stage/melee/STGMETALGEAR_00.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGMETALGEAR_01.pac" disc="/stage/melee/STGMETALGEAR_01.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGMETALGEAR_02.pac" disc="/stage/melee/STGMETALGEAR_02.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGNEWPORK.pac" disc="/stage/melee/STGNEWPORK_en.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGORPHEON.PAC" disc="/stage/melee/STGORPHEON.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGPALUTENA.PAC" disc="/stage/melee/STGPALUTENA.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGPICTCHAT.PAC" disc="/stage/melee/STGPICTCHAT_en.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGSTADIUM.pac" disc="/stage/melee/STGSTADIUM_en.pac" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_00.PAC" disc="/stage/melee/STGVILLAGE_00_en.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_01.PAC" disc="/stage/melee/STGVILLAGE_01_en.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_02.PAC" disc="/stage/melee/STGVILLAGE_02_en.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_03.PAC" disc="/stage/melee/STGVILLAGE_03_en.PAC" />
+		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_04.PAC" disc="/stage/melee/STGVILLAGE_04_en.PAC" />
 	</patch>
 	<patch id="ocarina pm 3.02 base_vi">
 		<memory ocarina="true" value="7CE33B783887003438A7003838C7004C" offset="0x000018A8" />
