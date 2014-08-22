@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <riivolution version="2">
-  <option id="Brawl LauncherCode Set" default="2"/>
-  <option id="Brawl LauncherHook Type" default="7"/>
+  <option id="Brawl LauncherMod" default="2"/>
+  <option id="Brawl LauncherHook" default="7"/>
 </riivolution>

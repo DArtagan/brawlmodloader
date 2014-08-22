@@ -2,7 +2,7 @@
 	<id game="RSB" />
 	<options>
 		<section name="Brawl Launcher">
-			<option name="Code Set" default="1">
+			<option name="Mod" default="1">
 				<choice name="Project M">
 					<patch id="projectm 3.02" />
 					<patch id="ocarina pm 3.02" />
@@ -12,7 +12,7 @@
 					<patch id="ocarina pm 3.02" />
 				</choice>
 			</option>
-			<option name="Hook Type" default="1">
+			<option name="Hook" default="1">
 				<choice name="VI"><patch id="ocarina pm 3.02 base_vi" /></choice>
 				<choice name="KPAD"><patch id="ocarina pm 3.02 base_kpad" /></choice>
 				<choice name="Joypad"><patch id="ocarina pm 3.02 base_joypad" /></choice>
