@@ -575,6 +575,7 @@
 		<file external="/brawlmods/brawlplus/fighter/wolf/FitWolf.pac" disc="/fighter/wolf/FitWolf.pac" />
 		<file external="/brawlmods/brawlplus/fighter/yoshi/FitYoshi.pac" disc="/fighter/yoshi/FitYoshi.pac" />
 		<file external="/brawlmods/brawlplus/fighter/zelda/FitZelda.pac" disc="/fighter/zelda/FitZelda.pac" />
+		<file external="/brawlmods/brawlplus/menu/strap/StrapEn.pac" disc="/menu/strap/StrapEn.pac" />
 		<file external="/brawlmods/brawlplus/module/st_custom1.rel" disc="/module/st_custom1.rel" />
 		<file external="/brawlmods/brawlplus/module/st_custom2.rel" disc="/module/st_custom2.rel" />
 		<file external="/brawlmods/brawlplus/module/st_jungle.rel" disc="/module/st_jungle.rel" />
@@ -616,6 +617,8 @@
 		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_02.PAC" disc="/stage/melee/STGVILLAGE_02_en.PAC" />
 		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_03.PAC" disc="/stage/melee/STGVILLAGE_03_en.PAC" />
 		<file external="/brawlmods/brawlplus/stage/melee/STGVILLAGE_04.PAC" disc="/stage/melee/STGVILLAGE_04_en.PAC" />
+		<file external="/brawlmods/brawlplus/system/common3.pac" disc="/system/common3_en.pac" />
+		<file external="/brawlmods/brawlplus/system/common5.pac" disc="/system/common5_en.pac" />
 	</patch>
 	<patch id="ocarina pm 3.02 base_vi">
 		<memory ocarina="true" value="7CE33B783887003438A7003838C7004C" offset="0x000018A8" />
