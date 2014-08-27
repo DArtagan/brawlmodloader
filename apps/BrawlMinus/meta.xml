@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.0">
+	<name>Brawl -</name>
+	<coder></coder>
+	<release_date>20140825</release_date>
+<short_description>Brawl -</short_description>
+<long_description>Brawl is a modified version of the MinimaLauncher, set to always run the codes in SD:/codes/brawlminus.gct.
+
+Copyright (C) 2012-2014 FIX94
+Credit to tueidj for vWii Widescreen Patch!
+Credit to crediar for kirby's gameconfig
+
+</long_description>
+<ahb_access />
+</app>
