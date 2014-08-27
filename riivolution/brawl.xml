@@ -5,25 +5,33 @@
 			<option name="Mod" default="1">
 				<choice name="Project M">
 					<patch id="projectm 3.02" />
-					<patch id="ocarina pm 3.02" />
+					<patch id="ocarina" />
 				</choice>
 				<choice name="Brawl -">
 					<patch id="brawlminus" />
-					<patch id="ocarina pm 3.02" />
+					<patch id="ocarina" />
 				</choice>
 				<choice name="Brawl +">
 					<patch id="brawlplus" />
-					<patch id="ocarina pm 3.02" />
+					<patch id="ocarina" />
+				</choice>
+				<choice name="Brawl -ish">
+					<patch id="brawlminusish" />
+					<patch id="ocarina" />
+				</choice>
+				<choice name="Brawl -simple">
+					<patch id="brawlminussimple" />
+					<patch id="ocarina" />
 				</choice>
 			</option>
 			<option name="Hook" default="1">
-				<choice name="VI"><patch id="ocarina pm 3.02 base_vi" /></choice>
-				<choice name="KPAD"><patch id="ocarina pm 3.02 base_kpad" /></choice>
-				<choice name="Joypad"><patch id="ocarina pm 3.02 base_joypad" /></choice>
-				<choice name="GXDraw"><patch id="ocarina pm 3.02 base_gxdraw" /></choice>
-				<choice name="GXFlush"><patch id="ocarina pm 3.02 base_gxflush" /></choice>
-				<choice name="OSSleep"><patch id="ocarina pm 3.02 base_ossleep" /></choice>
-				<choice name="AxNextFrame"><patch id="ocarina pm 3.02 base_axnextframe" /></choice>
+				<choice name="VI"><patch id="ocarinabase_vi" /></choice>
+				<choice name="KPAD"><patch id="ocarinabase_kpad" /></choice>
+				<choice name="Joypad"><patch id="ocarinabase_joypad" /></choice>
+				<choice name="GXDraw"><patch id="ocarinabase_gxdraw" /></choice>
+				<choice name="GXFlush"><patch id="ocarinabase_gxflush" /></choice>
+				<choice name="OSSleep"><patch id="ocarinabase_ossleep" /></choice>
+				<choice name="AxNextFrame"><patch id="ocarinabase_axnextframe" /></choice>
 			</option>
 		</section>
 	</options>
@@ -43,130 +51,137 @@
 		<folder external="/projectm/pf/system/" disc="/system/" recursive="true" create="true" resize="true" />
 		<folder external="/projectm/pf/movies/" disc="/movie/" recursive="true" create="true" resize="true" />
 		<file external="/projectm/pf/sound/smashbros_sound.brsar" disc="/sound/smashbros_sound.brsar" />
-		<file external="/projectm/full/mu_menumain.pac" disc="/menu2/mu_menumain_en.pac"/>
-		<file external="/projectm/pf/info2/info.pac" disc="/info2/info_en.pac"/>
-		<file external="/projectm/pf/info2/info_mg.pac" disc="/info2/info_mg_en.pac"/>
-		<file external="/projectm/pf/info2/info_boss_battle.pac" disc="/info2/info_boss_battle_en.pac"/>
-		<file external="/projectm/pf/info2/info_corps.pac" disc="/info2/info_corps_en.pac"/>
-		<file external="/projectm/pf/info2/info_corps_mg.pac" disc="/info2/info_corps_mg_en.pac"/>
-		<file external="/projectm/pf/info2/info_homerun.pac" disc="/info2/info_homerun_en.pac"/>
-		<file external="/projectm/pf/info2/info_homerun_mg.pac" disc="/info2/info_homerun_mg_en.pac"/>
-		<file external="/projectm/pf/info2/info_training.pac" disc="/info2/info_training_en.pac"/>
-		<file external="/projectm/pf/info2/info_training_mg.pac" disc="/info2/info_training_mg_en.pac"/>
-		<file external="/projectm/pf/menu2/sc_title.pac" disc="/menu2/sc_title_en.pac"/>
-		<file external="/projectm/pf/system/common.pac" disc="/system/common_en.pac"/>
-		<file external="/projectm/pf/system/common2.pac" disc="/system/common2_en.pac"/>
-		<file external="/projectm/pf/system/common3.pac" disc="/system/common3_en.pac"/>
-		<file external="/projectm/pf/system/common4.pac" disc="/system/common4_en.pac"/>
-		<file external="/projectm/full/common5.pac" disc="/system/common5_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGDXPSTADIUM.pac" disc="/stage/melee/STGDXPSTADIUM_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGGW.pac" disc="/stage/melee/STGGW_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGHOMERUN.pac" disc="/stage/melee/STGHOMERUN_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGMADEIN.pac" disc="/stage/melee/STGMADEIN_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGNEWPORK.pac" disc="/stage/melee/STGNEWPORK_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGPICTCHAT.pac" disc="/stage/melee/STGPICTCHAT_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGRESULT.pac" disc="/stage/melee/STGRESULT_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGSTADIUM.pac" disc="/stage/melee/STGSTADIUM_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGVILLAGE_00.pac" disc="/stage/melee/STGVILLAGE_00_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGVILLAGE_01.pac" disc="/stage/melee/STGVILLAGE_01_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGVILLAGE_02.pac" disc="/stage/melee/STGVILLAGE_02_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGVILLAGE_03.pac" disc="/stage/melee/STGVILLAGE_03_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGVILLAGE_04.pac" disc="/stage/melee/STGVILLAGE_04_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGDXONETT.pac" disc="/stage/melee/STGDXONETT_en.pac"/>
-		<file external="/projectm/pf/stage/melee/STGFINAL_A.pac" disc="/stage/melee/STGFINAL_A.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGFINAL_B.pac" disc="/stage/melee/STGFINAL_B.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGFINAL_C.pac" disc="/stage/melee/STGFINAL_C.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGFINAL_D.pac" disc="/stage/melee/STGFINAL_D.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_A.pac" disc="/stage/melee/STGBATTLEFIELD_A.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_B.pac" disc="/stage/melee/STGBATTLEFIELD_B.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_C.pac" disc="/stage/melee/STGBATTLEFIELD_C.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_D.pac" disc="/stage/melee/STGBATTLEFIELD_D.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGNEWPORK_A.pac" disc="/stage/melee/STGNEWPORK_A.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGNEWPORK_B.pac" disc="/stage/melee/STGNEWPORK_B.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGNEWPORK_C.pac" disc="/stage/melee/STGNEWPORK_C.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGNEWPORK_D.pac" disc="/stage/melee/STGNEWPORK_D.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGJUNGLE_A.pac" disc="/stage/melee/STGJUNGLE_A.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGJUNGLE_B.pac" disc="/stage/melee/STGJUNGLE_B.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGJUNGLE_C.pac" disc="/stage/melee/STGJUNGLE_C.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGJUNGLE_D.pac" disc="/stage/melee/STGJUNGLE_D.pac" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM01.pac" disc="/stage/melee/STGCUSTOM01.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom01.rel" disc="/module/st_custom01.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM02.pac" disc="/stage/melee/STGCUSTOM02.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom02.rel" disc="/module/st_custom02.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM03.pac" disc="/stage/melee/STGCUSTOM03.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom03.rel" disc="/module/st_custom03.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM04.pac" disc="/stage/melee/STGCUSTOM04.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom04.rel" disc="/module/st_custom04.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM05.pac" disc="/stage/melee/STGCUSTOM05.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom05.rel" disc="/module/st_custom05.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM06.pac" disc="/stage/melee/STGCUSTOM06.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom06.rel" disc="/module/st_custom06.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM07.pac" disc="/stage/melee/STGCUSTOM07.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom07.rel" disc="/module/st_custom07.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM08.pac" disc="/stage/melee/STGCUSTOM08.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom08.rel" disc="/module/st_custom08.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM09.pac" disc="/stage/melee/STGCUSTOM09.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom09.rel" disc="/module/st_custom09.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM0A.pac" disc="/stage/melee/STGCUSTOM0A.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom0A.rel" disc="/module/st_custom0A.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM0B.pac" disc="/stage/melee/STGCUSTOM0B.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom0B.rel" disc="/module/st_custom0B.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM0C.pac" disc="/stage/melee/STGCUSTOM0C.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom0C.rel" disc="/module/st_custom0C.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM0D.pac" disc="/stage/melee/STGCUSTOM0D.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom0D.rel" disc="/module/st_custom0D.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM0E.pac" disc="/stage/melee/STGCUSTOM0E.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom0E.rel" disc="/module/st_custom0E.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM0F.pac" disc="/stage/melee/STGCUSTOM0F.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom0F.rel" disc="/module/st_custom0F.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM10.pac" disc="/stage/melee/STGCUSTOM10.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom10.rel" disc="/module/st_custom10.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM11.pac" disc="/stage/melee/STGCUSTOM11.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom11.rel" disc="/module/st_custom11.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM12.pac" disc="/stage/melee/STGCUSTOM12.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom12.rel" disc="/module/st_custom12.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM13.pac" disc="/stage/melee/STGCUSTOM13.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom13.rel" disc="/module/st_custom13.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM14.pac" disc="/stage/melee/STGCUSTOM14.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom14.rel" disc="/module/st_custom14.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM15.pac" disc="/stage/melee/STGCUSTOM15.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom15.rel" disc="/module/st_custom15.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM16.pac" disc="/stage/melee/STGCUSTOM16.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom16.rel" disc="/module/st_custom16.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM17.pac" disc="/stage/melee/STGCUSTOM17.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom17.rel" disc="/module/st_custom17.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM18.pac" disc="/stage/melee/STGCUSTOM18.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom18.rel" disc="/module/st_custom18.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM19.pac" disc="/stage/melee/STGCUSTOM19.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom19.rel" disc="/module/st_custom19.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM1A.pac" disc="/stage/melee/STGCUSTOM1A.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom1A.rel" disc="/module/st_custom1A.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM1B.pac" disc="/stage/melee/STGCUSTOM1B.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom1B.rel" disc="/module/st_custom1B.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM1C.pac" disc="/stage/melee/STGCUSTOM1C.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom1C.rel" disc="/module/st_custom1C.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM1D.pac" disc="/stage/melee/STGCUSTOM1D.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom1D.rel" disc="/module/st_custom1D.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM1E.pac" disc="/stage/melee/STGCUSTOM1E.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom1E.rel" disc="/module/st_custom1E.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM1F.pac" disc="/stage/melee/STGCUSTOM1F.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom1F.rel" disc="/module/st_custom1F.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM20.pac" disc="/stage/melee/STGCUSTOM20.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom20.rel" disc="/module/st_custom20.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM21.pac" disc="/stage/melee/STGCUSTOM21.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom21.rel" disc="/module/st_custom21.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM22.pac" disc="/stage/melee/STGCUSTOM22.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom22.rel" disc="/module/st_custom22.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM23.pac" disc="/stage/melee/STGCUSTOM23.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom23.rel" disc="/module/st_custom23.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM24.pac" disc="/stage/melee/STGCUSTOM24.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom24.rel" disc="/module/st_custom24.rel" create= "true"/>
-		<file external="/projectm/pf/stage/melee/STGCUSTOM25.pac" disc="/stage/melee/STGCUSTOM25.pac" create= "true"/>
-		<file external="/projectm/pf/module/st_custom25.rel" disc="/module/st_custom25.rel" create= "true"/>
+		<file external="/projectm/full/mu_menumain.pac" disc="/menu2/mu_menumain_en.pac" />
+		<file external="/projectm/pf/info2/info.pac" disc="/info2/info_en.pac" />
+		<file external="/projectm/pf/info2/info_mg.pac" disc="/info2/info_mg_en.pac" />
+		<file external="/projectm/pf/info2/info_boss_battle.pac" disc="/info2/info_boss_battle_en.pac" />
+		<file external="/projectm/pf/info2/info_corps.pac" disc="/info2/info_corps_en.pac" />
+		<file external="/projectm/pf/info2/info_corps_mg.pac" disc="/info2/info_corps_mg_en.pac" />
+		<file external="/projectm/pf/info2/info_homerun.pac" disc="/info2/info_homerun_en.pac" />
+		<file external="/projectm/pf/info2/info_homerun_mg.pac" disc="/info2/info_homerun_mg_en.pac" />
+		<file external="/projectm/pf/info2/info_training.pac" disc="/info2/info_training_en.pac" />
+		<file external="/projectm/pf/info2/info_training_mg.pac" disc="/info2/info_training_mg_en.pac" />
+		<file external="/projectm/pf/menu2/sc_title.pac" disc="/menu2/sc_title_en.pac" />
+		<file external="/projectm/pf/system/common.pac" disc="/system/common_en.pac" />
+		<file external="/projectm/pf/system/common2.pac" disc="/system/common2_en.pac" />
+		<file external="/projectm/pf/system/common3.pac" disc="/system/common3_en.pac" />
+		<file external="/projectm/pf/system/common4.pac" disc="/system/common4_en.pac" />
+		<file external="/projectm/full/common5.pac" disc="/system/common5_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGDXPSTADIUM.pac" disc="/stage/melee/STGDXPSTADIUM_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGGW.pac" disc="/stage/melee/STGGW_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGHOMERUN.pac" disc="/stage/melee/STGHOMERUN_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGMADEIN.pac" disc="/stage/melee/STGMADEIN_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGNEWPORK.pac" disc="/stage/melee/STGNEWPORK_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGPICTCHAT.pac" disc="/stage/melee/STGPICTCHAT_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGRESULT.pac" disc="/stage/melee/STGRESULT_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGSTADIUM.pac" disc="/stage/melee/STGSTADIUM_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGVILLAGE_00.pac" disc="/stage/melee/STGVILLAGE_00_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGVILLAGE_01.pac" disc="/stage/melee/STGVILLAGE_01_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGVILLAGE_02.pac" disc="/stage/melee/STGVILLAGE_02_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGVILLAGE_03.pac" disc="/stage/melee/STGVILLAGE_03_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGVILLAGE_04.pac" disc="/stage/melee/STGVILLAGE_04_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGDXONETT.pac" disc="/stage/melee/STGDXONETT_en.pac" />
+		<file external="/projectm/pf/stage/melee/STGFINAL_A.pac" disc="/stage/melee/STGFINAL_A.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGFINAL_B.pac" disc="/stage/melee/STGFINAL_B.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGFINAL_C.pac" disc="/stage/melee/STGFINAL_C.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGFINAL_D.pac" disc="/stage/melee/STGFINAL_D.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_A.pac" disc="/stage/melee/STGBATTLEFIELD_A.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_B.pac" disc="/stage/melee/STGBATTLEFIELD_B.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_C.pac" disc="/stage/melee/STGBATTLEFIELD_C.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGBATTLEFIELD_D.pac" disc="/stage/melee/STGBATTLEFIELD_D.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGNEWPORK_A.pac" disc="/stage/melee/STGNEWPORK_A.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGNEWPORK_B.pac" disc="/stage/melee/STGNEWPORK_B.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGNEWPORK_C.pac" disc="/stage/melee/STGNEWPORK_C.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGNEWPORK_D.pac" disc="/stage/melee/STGNEWPORK_D.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGJUNGLE_A.pac" disc="/stage/melee/STGJUNGLE_A.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGJUNGLE_B.pac" disc="/stage/melee/STGJUNGLE_B.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGJUNGLE_C.pac" disc="/stage/melee/STGJUNGLE_C.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGJUNGLE_D.pac" disc="/stage/melee/STGJUNGLE_D.pac" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM01.pac" disc="/stage/melee/STGCUSTOM01.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom01.rel" disc="/module/st_custom01.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM02.pac" disc="/stage/melee/STGCUSTOM02.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom02.rel" disc="/module/st_custom02.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM03.pac" disc="/stage/melee/STGCUSTOM03.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom03.rel" disc="/module/st_custom03.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM04.pac" disc="/stage/melee/STGCUSTOM04.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom04.rel" disc="/module/st_custom04.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM05.pac" disc="/stage/melee/STGCUSTOM05.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom05.rel" disc="/module/st_custom05.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM06.pac" disc="/stage/melee/STGCUSTOM06.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom06.rel" disc="/module/st_custom06.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM07.pac" disc="/stage/melee/STGCUSTOM07.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom07.rel" disc="/module/st_custom07.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM08.pac" disc="/stage/melee/STGCUSTOM08.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom08.rel" disc="/module/st_custom08.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM09.pac" disc="/stage/melee/STGCUSTOM09.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom09.rel" disc="/module/st_custom09.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM0A.pac" disc="/stage/melee/STGCUSTOM0A.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom0A.rel" disc="/module/st_custom0A.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM0B.pac" disc="/stage/melee/STGCUSTOM0B.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom0B.rel" disc="/module/st_custom0B.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM0C.pac" disc="/stage/melee/STGCUSTOM0C.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom0C.rel" disc="/module/st_custom0C.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM0D.pac" disc="/stage/melee/STGCUSTOM0D.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom0D.rel" disc="/module/st_custom0D.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM0E.pac" disc="/stage/melee/STGCUSTOM0E.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom0E.rel" disc="/module/st_custom0E.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM0F.pac" disc="/stage/melee/STGCUSTOM0F.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom0F.rel" disc="/module/st_custom0F.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM10.pac" disc="/stage/melee/STGCUSTOM10.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom10.rel" disc="/module/st_custom10.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM11.pac" disc="/stage/melee/STGCUSTOM11.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom11.rel" disc="/module/st_custom11.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM12.pac" disc="/stage/melee/STGCUSTOM12.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom12.rel" disc="/module/st_custom12.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM13.pac" disc="/stage/melee/STGCUSTOM13.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom13.rel" disc="/module/st_custom13.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM14.pac" disc="/stage/melee/STGCUSTOM14.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom14.rel" disc="/module/st_custom14.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM15.pac" disc="/stage/melee/STGCUSTOM15.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom15.rel" disc="/module/st_custom15.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM16.pac" disc="/stage/melee/STGCUSTOM16.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom16.rel" disc="/module/st_custom16.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM17.pac" disc="/stage/melee/STGCUSTOM17.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom17.rel" disc="/module/st_custom17.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM18.pac" disc="/stage/melee/STGCUSTOM18.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom18.rel" disc="/module/st_custom18.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM19.pac" disc="/stage/melee/STGCUSTOM19.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom19.rel" disc="/module/st_custom19.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM1A.pac" disc="/stage/melee/STGCUSTOM1A.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom1A.rel" disc="/module/st_custom1A.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM1B.pac" disc="/stage/melee/STGCUSTOM1B.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom1B.rel" disc="/module/st_custom1B.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM1C.pac" disc="/stage/melee/STGCUSTOM1C.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom1C.rel" disc="/module/st_custom1C.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM1D.pac" disc="/stage/melee/STGCUSTOM1D.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom1D.rel" disc="/module/st_custom1D.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM1E.pac" disc="/stage/melee/STGCUSTOM1E.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom1E.rel" disc="/module/st_custom1E.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM1F.pac" disc="/stage/melee/STGCUSTOM1F.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom1F.rel" disc="/module/st_custom1F.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM20.pac" disc="/stage/melee/STGCUSTOM20.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom20.rel" disc="/module/st_custom20.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM21.pac" disc="/stage/melee/STGCUSTOM21.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom21.rel" disc="/module/st_custom21.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM22.pac" disc="/stage/melee/STGCUSTOM22.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom22.rel" disc="/module/st_custom22.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM23.pac" disc="/stage/melee/STGCUSTOM23.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom23.rel" disc="/module/st_custom23.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM24.pac" disc="/stage/melee/STGCUSTOM24.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom24.rel" disc="/module/st_custom24.rel" create= "true" />
+		<file external="/projectm/pf/stage/melee/STGCUSTOM25.pac" disc="/stage/melee/STGCUSTOM25.pac" create= "true" />
+		<file external="/projectm/pf/module/st_custom25.rel" disc="/module/st_custom25.rel" create= "true" />
 	</patch>
 	<patch id="brawlminus">
 		<memory valuefile="/brawlmods/brawlminus/RSBE01.gct" offset="0x00570000" />
-		<folder external="/brawlmods/brawlminus/BrawlEx/" disc="/BrawlEx/" recursive="true" create="true" resize="true" />
+		<file external="/brawlmods/brawlminus/BrawlEx/CosmeticConfig/Cosmetic3F.dat" disc="/BrawlEx/CosmeticConfig/Cosmetic3F.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/CosmeticConfig/Cosmetic40.dat" disc="/BrawlEx/CosmeticConfig/Cosmetic40.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/CSSSlotConfig/CSSSlot3F.dat" disc="/BrawlEx/CSSSlotConfig/CSSSlot3F.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/CSSSlotConfig/CSSSlot40.dat" disc="/BrawwlEx/CSSSlotConfig/CSSSlot40.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/FighterConfig/Fighter3F.dat" disc="/BrawlEx/FighterConfig/Fighter3F.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/FighterConfig/Fighter40.dat" disc="/BrawlEx/FighterConfig/Fighter40.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/SlotConfig/Slot3F.dat" disc="/BrawlEx/SlotConfig/Slot3F.dat" />
+		<file external="/brawlmods/brawlminus/BrawlEx/SlotConfig/Slot40.dat" disc="/BrawlEx/SlotConfig/Slot40.dat" />
 		<file external="/brawlmods/brawlminus/fighter/captain/FitCaptain.pac" disc="/fighter/captain/FitCaptain.pac" />
 		<file external="/brawlmods/brawlminus/fighter/dedede/FitDedede.pac" disc="/fighter/dedede/FitDedede.pac" />
 		<file external="/brawlmods/brawlminus/fighter/dedede/FitDededeMotionEtc.pac" disc="/fighter/dedede/FitDededeMotionEtc.pac" />
@@ -739,7 +754,8 @@
 		<file external="/brawlmods/brawlminus/info2/info_training.brres" disc="/info2/info_training_en.brres" />
 		<file external="/brawlmods/brawlminus/info2/info_training_mg.brres" disc="/info2/info_training_mg_en.brres" />
 		<file external="/brawlmods/brawlminus/menu/collection/Replay.pac" disc="/menu/collection/Replay.pac" />
-		<file external="/brawlmods/brawlminus/menu/common/char_bust_tex/MenSelchrFaceB1110.brres" disc="/menu/common/char_bust_tex/MenSelchrFaceB1100.brres" />
+		<file external="/brawlmods/brawlminus/menu/common/char_bust_tex/MenSelchrFaceB1100.brres" disc="/menu/common/char_bust_tex/MenSelchrFaceB1100.brres" />
+		<file external="/brawlmods/brawlminus/menu/common/char_bust_tex/MenSelchrFaceB1110.brres" disc="/menu/common/char_bust_tex/MenSelchrFaceB1110.brres" />
 		<file external="/brawlmods/brawlminus/menu/msg/stage_name.msbin" disc="/menu/msg/stage_name.msbin" />
 		<file external="/brawlmods/brawlminus/menu/strap/StrapEn.pac" disc="/menu/strap/StrapEn.pac" />
 		<file external="/brawlmods/brawlminus/menu2/mu_menumain.pac" disc="/menu2/mu_menumain_en.pac" />
@@ -773,7 +789,7 @@
 		<file external="/brawlmods/brawlminus/stage/melee/STGDXCORNERIA.pac" disc="/stage/melee/STGDXCORNERIA.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGDXGARDEN.pac" disc="/stage/melee/STGDXGARDEN.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGDXGREENS.pac" disc="/stage/melee/STGDXGREENS.pac" />
-		<file external="/brawlmods/brawlminus/stage/melee/STGDXPSTADIUM.pac" disc="/stage/melee/STGDXPSTADIUM.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGDXPSTADIUM.pac" disc="/stage/melee/STGDXPSTADIUM_en.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGDXRCRUISE.pac" disc="/stage/melee/STGDXRCRUISE.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGDXSHRINE.pac" disc="/stage/melee/STGDXSHRINE.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGDXYORSTER.pac" disc="/stage/melee/STGDXYORSTER.pac" />
@@ -785,25 +801,25 @@
 		<file external="/brawlmods/brawlminus/stage/melee/STGFINAL.pac" disc="/stage/melee/STGFINAL.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGFZERO.pac" disc="/stage/melee/STGFZERO.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGGREENHILL.pac" disc="/stage/melee/STGGREENHILL.pac" />
-		<file external="/brawlmods/brawlminus/stage/melee/STGGW.pac" disc="/stage/melee/STGGW.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGGW.pac" disc="/stage/melee/STGGW_en.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGHALBERD.pac" disc="/stage/melee/STGHALBERD.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGICE.pac" disc="/stage/melee/STGICE.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGJUNGLE.PAC" disc="/stage/melee/STGJUNGLE.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGKART.PAC" disc="/stage/melee/STGKART.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGMADEIN.PAC" disc="/stage/melee/STGMADEIN_en.pac" />
-		<file external="/brawlmods/brawlminus/stage/melee/STGMANSION.PAC" disc="/stage/melee/STGMANSION_en.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGMANSION.PAC" disc="/stage/melee/STGMANSION.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGMARIOPAST_00.pac" disc="/stage/melee/STGMARIOPAST_00.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGMARIOPAST_01.pac" disc="/stage/melee/STGMARIOPAST_01.pac" />
-		<file external="/brawlmods/brawlminus/stage/melee/STGNEWPORK.pac" disc="/stage/melee/STGNEWPORK.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGNEWPORK.pac" disc="/stage/melee/STGNEWPORK_en.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGNORFAIR.pac" disc="/stage/melee/STGNORFAIR.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGOLDIN.pac" disc="/stage/melee/STGOLDIN.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGONLINETRAINING.pac" disc="/stage/melee/STGONLINETRAINING.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGORPHEON.pac" disc="/stage/melee/STGORPHEON.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGPALUTENA.pac" disc="/stage/melee/STGPALUTENA.pac" />
-		<file external="/brawlmods/brawlminus/stage/melee/STGPICTCHAT.pac" disc="/stage/melee/STGPICTCHAT.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGPICTCHAT.pac" disc="/stage/melee/STGPICTCHAT_en.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGPIRATES.pac" disc="/stage/melee/STGPIRATES.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGPLANKTON.pac" disc="/stage/melee/STGPLANKTON.pac" />
-		<file external="/brawlmods/brawlminus/stage/melee/STGRESULT.pac" disc="/stage/melee/STGRESULT.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGRESULT.pac" disc="/stage/melee/STGRESULT_en.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGSTADIUM.pac" disc="/stage/melee/STGSTADIUM_en.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGSTARFOX_GDIFF.pac" disc="/stage/melee/STGSTARFOX_GDIFF.pac" />
 		<file external="/brawlmods/brawlminus/stage/melee/STGTENGAN_1.PAC" disc="/stage/melee/STGTENGAN_1.pac" />
@@ -908,29 +924,395 @@
 		<file external="/brawlmods/brawlplus/system/common3.pac" disc="/system/common3_en.pac" />
 		<file external="/brawlmods/brawlplus/system/common5.pac" disc="/system/common5_en.pac" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_vi">
+	<patch id="brawlminusish">
+		<file external="/brawlmods/brawlminus/fighter/captain/FitCaptain.pac" disc="/fighter/captain/FitCaptain.pac" />
+		<file external="/brawlmods/brawlminus/fighter/dedede/FitDedede.pac" disc="/fighter/dedede/FitDedede.pac" />
+		<file external="/brawlmods/brawlminus/fighter/diddy/FitDiddy.pac" disc="/fighter/diddy/FitDiddy.pac" />
+		<file external="/brawlmods/brawlminus/fighter/donkey/FitDonkey.pac" disc="/fighter/donkey/FitDonkey.pac" />
+		<file external="/brawlmods/brawlminus/fighter/falco/FitFalco.pac" disc="/fighter/falco/FitFalco.pac" />
+		<file external="/brawlmods/brawlminus/fighter/fox/FitFox.pac" disc="/fighter/fox/FitFox.pac" />
+		<file external="/brawlmods/brawlminus/fighter/gamewatch/FitGameWatch.pac" disc="/fighter/gamewatch/FitGameWatch.pac" />
+		<file external="/brawlmods/brawlminus/fighter/ganon/FitGanon.pac" disc="/fighter/ganon/FitGanon.pac" />
+		<file external="/brawlmods/brawlminus/fighter/ike/FitIke.pac" disc="/fighter/ike/FitIke.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirby.pac" disc="/fighter/kirby/FitKirby.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyDonkey.pac" disc="/fighter/kirby/FitKirbyDonkey.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyFalco.pac" disc="/fighter/kirby/FitKirbyFalco.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyIke.pac" disc="/fighter/kirby/FitKirbyIke.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyKoopa.pac" disc="/fighter/kirby/FitKirbyKoopa.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyLink.pac" disc="/fighter/kirby/FitKirbyLink.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyLucario.pac" disc="/fighter/kirby/FitKirbyLucario.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyLucas.pac" disc="/fighter/kirby/FitKirbyLucas.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyMotionEtc.pac" disc="/fighter/kirby/FitKirbyMotionEtc.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyNess.pac" disc="/fighter/kirby/FitKirbyNess.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyPikachu.pac" disc="/fighter/kirby/FitKirbyPikachu.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyPit.pac" disc="/fighter/kirby/FitKirbyPit.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyPopo.pac" disc="/fighter/kirby/FitKirbyPopo.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyRobot.pac" disc="/fighter/kirby/FitKirbyRobot.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbySamus.pac" disc="/fighter/kirby/FitKirbySamus.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbySheik.pac" disc="/fighter/kirby/FitKirbySheik.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbySnake.pac" disc="/fighter/kirby/FitKirbySnake.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyToonLink.pac" disc="/fighter/kirby/FitKirbyToonLink.pac" />
+		<file external="/brawlmods/brawlminus/fighter/kirby/FitKirbyWolf.pac" disc="/fighter/kirby/FitKirbyWolf.pac" />
+		<file external="/brawlmods/brawlminus/fighter/koopa/FitKoopa.pac" disc="/fighter/koopa/FitKoopa.pac" />
+		<file external="/brawlmods/brawlminus/fighter/link/FitLink.pac" disc="/fighter/link/FitLink.pac" />
+		<file external="/brawlmods/brawlminus/fighter/lucario/FitLucario.pac" disc="/fighter/lucario/FitLucario.pac" />
+		<file external="/brawlmods/brawlminus/fighter/lucario/FitLucario01.pcs" disc="/fighter/lucario/FitLucario01.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/lucario/FitLucario02.pcs" disc="/fighter/lucario/FitLucario02.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/lucas/FitLucas.pac" disc="/fighter/lucas/FitLucas.pac" />
+		<file external="/brawlmods/brawlminus/fighter/luigi/FitLuigi.pac" disc="/fighter/luigi/FitLuigi.pac" />
+		<file external="/brawlmods/brawlminus/fighter/mario/FitMario.pac" disc="/fighter/mario/FitMario.pac" />
+		<file external="/brawlmods/brawlminus/fighter/marth/FitMarth.pac" disc="/fighter/marth/FitMarth.pac" />
+		<file external="/brawlmods/brawlminus/fighter/metaknight/FitMetaknight.pac" disc="/fighter/metaknight/FitMetaknight.pac" />
+		<file external="/brawlmods/brawlminus/fighter/ness/FitNess.pac" disc="/fighter/ness/FitNess.pac" />
+		<file external="/brawlmods/brawlminus/fighter/peach/FitPeach.pac" disc="/fighter/peach/FitPeach.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pikachu/FitPikachu.pac" disc="/fighter/pikachu/FitPikachu.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pikmin/FitPikmin.pac" disc="/fighter/pikmin/FitPikmin.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pikmin/FitPikmin03.pcs" disc="/fighter/pikmin/FitPikmin03.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pit/FitPit.pac" disc="/fighter/pit/FitPit.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou.pac" disc="/fighter/pokefushigisou/FitPokeFushigisou.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou01.pac" disc="/fighter/pokefushigisou/FitPokeFushigisou01.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou01.pcs" disc="/fighter/pokefushigisou/FitPokeFushigisou01.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou02.pac" disc="/fighter/pokefushigisou/FitPokeFushigisou02.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou02.pcs" disc="/fighter/pokefushigisou/FitPokeFushigisou02.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou03.pac" disc="/fighter/pokefushigisou/FitPokeFushigisou03.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokefushigisou/FitPokeFushigisou03.pcs" disc="/fighter/pokefushigisou/FitPokeFushigisou03.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon.pac" disc="/fighter/pokelizardon/FitPokeLizardon.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon01.pac" disc="/fighter/pokelizardon/FitPokeLizardon01.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon01.pcs" disc="/fighter/pokelizardon/FitPokeLizardon01.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon02.pac" disc="/fighter/pokelizardon/FitPokeLizardon02.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon02.pcs" disc="/fighter/pokelizardon/FitPokeLizardon02.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon03.pac" disc="/fighter/pokelizardon/FitPokeLizardon03.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokelizardon/FitPokeLizardon03.pcs" disc="/fighter/pokelizardon/FitPokeLizardon03.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame.pac" disc="/fighter/pokezenigame/FitPokeZenigame.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame01.pac" disc="/fighter/pokezenigame/FitPokeZenigame01.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame01.pcs" disc="/fighter/pokezenigame/FitPokeZenigame01.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame02.pac" disc="/fighter/pokezenigame/FitPokeZenigame02.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame02.pcs" disc="/fighter/pokezenigame/FitPokeZenigame02.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame03.pac" disc="/fighter/pokezenigame/FitPokeZenigame03.pac" />
+		<file external="/brawlmods/brawlminus/fighter/pokezenigame/FitPokeZenigame03.pcs" disc="/fighter/pokezenigame/FitPokeZenigame03.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/popo/FitPopo.pac" disc="/fighter/popo/FitPopo.pac" />
+		<file external="/brawlmods/brawlminus/fighter/purin/FitPurin.pac" disc="/fighter/purin/FitPurin.pac" />
+		<file external="/brawlmods/brawlminus/fighter/robot/FitRobot.pac" disc="/fighter/robot/FitRobot.pac" />
+		<file external="/brawlmods/brawlminus/fighter/samus/FitSamus.pac" disc="/fighter/samus/FitSamus.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sheik/FitSheik.pac" disc="/fighter/sheik/FitSheik.pac" />
+		<file external="/brawlmods/brawlminus/fighter/snake/FitSnake.pac" disc="/fighter/snake/FitSnake.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic.pac" disc="/fighter/sonic/FitSonic.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic00.pac" disc="/fighter/sonic/FitSonic00.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic00.pcs" disc="/fighter/sonic/FitSonic00.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic01.pac" disc="/fighter/sonic/FitSonic01.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic01.pcs" disc="/fighter/sonic/FitSonic01.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic02.pac" disc="/fighter/sonic/FitSonic02.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic02.pcs" disc="/fighter/sonic/FitSonic02.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic04.pac" disc="/fighter/sonic/FitSonic04.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic04.pcs" disc="/fighter/sonic/FitSonic04.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic05.pac" disc="/fighter/sonic/FitSonic05.pac" />
+		<file external="/brawlmods/brawlminus/fighter/sonic/FitSonic05.pcs" disc="/fighter/sonic/FitSonic05.pcs" />
+		<file external="/brawlmods/brawlminus/fighter/szerosuit/FitSZerosuit.pac" disc="/fighter/szerosuit/FitSZerosuit.pac" />
+		<file external="/brawlmods/brawlminus/fighter/toonlink/FitToonLink.pac" disc="/fighter/toonlink/FitToonLink.pac" />
+		<file external="/brawlmods/brawlminus/fighter/wario/FitWario.pac" disc="/fighter/wario/FitWario.pac" />
+		<file external="/brawlmods/brawlminus/fighter/wolf/FitWolf.pac" disc="/fighter/wolf/FitWolf.pac" />
+		<file external="/brawlmods/brawlminus/fighter/yoshi/FitYoshi.pac" disc="/fighter/yoshi/FitYoshi.pac" />
+		<file external="/brawlmods/brawlminus/fighter/zelda/FitZelda.pac" disc="/fighter/zelda/FitZelda.pac" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace001.brres" disc="/info/portrite/InfFace001.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace002.brres" disc="/info/portrite/InfFace002.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace003.brres" disc="/info/portrite/InfFace003.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace004.brres" disc="/info/portrite/InfFace004.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace005.brres" disc="/info/portrite/InfFace005.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace006.brres" disc="/info/portrite/InfFace006.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace011.brres" disc="/info/portrite/InfFace011.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace012.brres" disc="/info/portrite/InfFace012.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace013.brres" disc="/info/portrite/InfFace013.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace014.brres" disc="/info/portrite/InfFace014.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace015.brres" disc="/info/portrite/InfFace015.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace016.brres" disc="/info/portrite/InfFace016.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace021.brres" disc="/info/portrite/InfFace021.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace022.brres" disc="/info/portrite/InfFace022.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace023.brres" disc="/info/portrite/InfFace023.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace024.brres" disc="/info/portrite/InfFace024.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace025.brres" disc="/info/portrite/InfFace025.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace026.brres" disc="/info/portrite/InfFace026.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace031.brres" disc="/info/portrite/InfFace031.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace032.brres" disc="/info/portrite/InfFace032.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace033.brres" disc="/info/portrite/InfFace033.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace034.brres" disc="/info/portrite/InfFace034.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace035.brres" disc="/info/portrite/InfFace035.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace036.brres" disc="/info/portrite/InfFace036.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace041.brres" disc="/info/portrite/InfFace041.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace042.brres" disc="/info/portrite/InfFace042.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace043.brres" disc="/info/portrite/InfFace043.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace044.brres" disc="/info/portrite/InfFace044.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace045.brres" disc="/info/portrite/InfFace045.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace046.brres" disc="/info/portrite/InfFace046.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace051.brres" disc="/info/portrite/InfFace051.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace052.brres" disc="/info/portrite/InfFace052.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace053.brres" disc="/info/portrite/InfFace053.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace054.brres" disc="/info/portrite/InfFace054.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace055.brres" disc="/info/portrite/InfFace055.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace056.brres" disc="/info/portrite/InfFace056.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace061.brres" disc="/info/portrite/InfFace061.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace062.brres" disc="/info/portrite/InfFace062.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace063.brres" disc="/info/portrite/InfFace063.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace064.brres" disc="/info/portrite/InfFace064.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace065.brres" disc="/info/portrite/InfFace065.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace066.brres" disc="/info/portrite/InfFace066.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace071.brres" disc="/info/portrite/InfFace071.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace072.brres" disc="/info/portrite/InfFace072.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace073.brres" disc="/info/portrite/InfFace073.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace074.brres" disc="/info/portrite/InfFace074.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace081.brres" disc="/info/portrite/InfFace081.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace082.brres" disc="/info/portrite/InfFace082.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace083.brres" disc="/info/portrite/InfFace083.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace084.brres" disc="/info/portrite/InfFace084.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace085.brres" disc="/info/portrite/InfFace085.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace086.brres" disc="/info/portrite/InfFace086.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace091.brres" disc="/info/portrite/InfFace091.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace092.brres" disc="/info/portrite/InfFace092.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace093.brres" disc="/info/portrite/InfFace093.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace094.brres" disc="/info/portrite/InfFace094.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace095.brres" disc="/info/portrite/InfFace095.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace096.brres" disc="/info/portrite/InfFace096.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace101.brres" disc="/info/portrite/InfFace101.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace102.brres" disc="/info/portrite/InfFace102.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace103.brres" disc="/info/portrite/InfFace103.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace104.brres" disc="/info/portrite/InfFace104.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace105.brres" disc="/info/portrite/InfFace105.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace106.brres" disc="/info/portrite/InfFace106.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace1081.brres" disc="/info/portrite/InfFace1081.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace1091.brres" disc="/info/portrite/InfFace1091.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace111.brres" disc="/info/portrite/InfFace111.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace112.brres" disc="/info/portrite/InfFace112.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace113.brres" disc="/info/portrite/InfFace113.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace114.brres" disc="/info/portrite/InfFace114.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace115.brres" disc="/info/portrite/InfFace115.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace116.brres" disc="/info/portrite/InfFace116.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace121.brres" disc="/info/portrite/InfFace121.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace122.brres" disc="/info/portrite/InfFace122.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace123.brres" disc="/info/portrite/InfFace123.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace124.brres" disc="/info/portrite/InfFace124.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace125.brres" disc="/info/portrite/InfFace125.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace126.brres" disc="/info/portrite/InfFace126.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace131.brres" disc="/info/portrite/InfFace131.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace132.brres" disc="/info/portrite/InfFace132.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace133.brres" disc="/info/portrite/InfFace133.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace134.brres" disc="/info/portrite/InfFace134.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace135.brres" disc="/info/portrite/InfFace135.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace136.brres" disc="/info/portrite/InfFace136.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace141.brres" disc="/info/portrite/InfFace141.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace142.brres" disc="/info/portrite/InfFace142.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace143.brres" disc="/info/portrite/InfFace143.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace144.brres" disc="/info/portrite/InfFace144.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace145.brres" disc="/info/portrite/InfFace145.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace146.brres" disc="/info/portrite/InfFace146.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace151.brres" disc="/info/portrite/InfFace151.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace152.brres" disc="/info/portrite/InfFace152.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace153.brres" disc="/info/portrite/InfFace153.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace154.brres" disc="/info/portrite/InfFace154.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace155.brres" disc="/info/portrite/InfFace155.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace156.brres" disc="/info/portrite/InfFace156.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace161.brres" disc="/info/portrite/InfFace161.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace162.brres" disc="/info/portrite/InfFace162.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace163.brres" disc="/info/portrite/InfFace163.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace164.brres" disc="/info/portrite/InfFace164.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace165.brres" disc="/info/portrite/InfFace165.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace166.brres" disc="/info/portrite/InfFace166.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace171.brres" disc="/info/portrite/InfFace171.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace172.brres" disc="/info/portrite/InfFace172.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace173.brres" disc="/info/portrite/InfFace173.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace174.brres" disc="/info/portrite/InfFace174.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace175.brres" disc="/info/portrite/InfFace175.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace176.brres" disc="/info/portrite/InfFace176.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace181.brres" disc="/info/portrite/InfFace181.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace182.brres" disc="/info/portrite/InfFace182.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace183.brres" disc="/info/portrite/InfFace183.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace184.brres" disc="/info/portrite/InfFace184.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace185.brres" disc="/info/portrite/InfFace185.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace186.brres" disc="/info/portrite/InfFace186.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace191.brres" disc="/info/portrite/InfFace191.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace192.brres" disc="/info/portrite/InfFace192.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace193.brres" disc="/info/portrite/InfFace193.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace194.brres" disc="/info/portrite/InfFace194.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace195.brres" disc="/info/portrite/InfFace195.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace196.brres" disc="/info/portrite/InfFace196.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace211.brres" disc="/info/portrite/InfFace211.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace212.brres" disc="/info/portrite/InfFace212.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace213.brres" disc="/info/portrite/InfFace213.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace214.brres" disc="/info/portrite/InfFace214.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace215.brres" disc="/info/portrite/InfFace215.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace216.brres" disc="/info/portrite/InfFace216.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace221.brres" disc="/info/portrite/InfFace221.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace222.brres" disc="/info/portrite/InfFace222.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace223.brres" disc="/info/portrite/InfFace223.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace224.brres" disc="/info/portrite/InfFace224.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace225.brres" disc="/info/portrite/InfFace225.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace226.brres" disc="/info/portrite/InfFace226.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace231.brres" disc="/info/portrite/InfFace231.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace232.brres" disc="/info/portrite/InfFace232.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace233.brres" disc="/info/portrite/InfFace233.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace234.brres" disc="/info/portrite/InfFace234.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace235.brres" disc="/info/portrite/InfFace235.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace236.brres" disc="/info/portrite/InfFace236.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace241.brres" disc="/info/portrite/InfFace241.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace242.brres" disc="/info/portrite/InfFace242.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace243.brres" disc="/info/portrite/InfFace243.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace244.brres" disc="/info/portrite/InfFace244.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace245.brres" disc="/info/portrite/InfFace245.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace246.brres" disc="/info/portrite/InfFace246.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace251.brres" disc="/info/portrite/InfFace251.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace252.brres" disc="/info/portrite/InfFace252.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace253.brres" disc="/info/portrite/InfFace253.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace254.brres" disc="/info/portrite/InfFace254.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace255.brres" disc="/info/portrite/InfFace255.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace256.brres" disc="/info/portrite/InfFace256.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace261.brres" disc="/info/portrite/InfFace261.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace262.brres" disc="/info/portrite/InfFace262.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace263.brres" disc="/info/portrite/InfFace263.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace264.brres" disc="/info/portrite/InfFace264.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace265.brres" disc="/info/portrite/InfFace265.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace266.brres" disc="/info/portrite/InfFace266.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace271.brres" disc="/info/portrite/InfFace271.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace272.brres" disc="/info/portrite/InfFace272.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace273.brres" disc="/info/portrite/InfFace273.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace274.brres" disc="/info/portrite/InfFace274.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace275.brres" disc="/info/portrite/InfFace275.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace281.brres" disc="/info/portrite/InfFace281.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace282.brres" disc="/info/portrite/InfFace282.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace283.brres" disc="/info/portrite/InfFace283.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace284.brres" disc="/info/portrite/InfFace284.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace285.brres" disc="/info/portrite/InfFace285.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace291.brres" disc="/info/portrite/InfFace291.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace292.brres" disc="/info/portrite/InfFace292.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace293.brres" disc="/info/portrite/InfFace293.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace294.brres" disc="/info/portrite/InfFace294.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace295.brres" disc="/info/portrite/InfFace295.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace301.brres" disc="/info/portrite/InfFace301.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace302.brres" disc="/info/portrite/InfFace302.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace303.brres" disc="/info/portrite/InfFace303.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace304.brres" disc="/info/portrite/InfFace304.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace305.brres" disc="/info/portrite/InfFace305.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace311.brres" disc="/info/portrite/InfFace311.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace312.brres" disc="/info/portrite/InfFace312.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace313.brres" disc="/info/portrite/InfFace313.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace314.brres" disc="/info/portrite/InfFace314.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace315.brres" disc="/info/portrite/InfFace315.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace316.brres" disc="/info/portrite/InfFace316.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace321.brres" disc="/info/portrite/InfFace321.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace322.brres" disc="/info/portrite/InfFace322.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace323.brres" disc="/info/portrite/InfFace323.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace324.brres" disc="/info/portrite/InfFace324.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace325.brres" disc="/info/portrite/InfFace325.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace331.brres" disc="/info/portrite/InfFace331.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace332.brres" disc="/info/portrite/InfFace332.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace333.brres" disc="/info/portrite/InfFace333.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace334.brres" disc="/info/portrite/InfFace334.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace335.brres" disc="/info/portrite/InfFace335.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace336.brres" disc="/info/portrite/InfFace336.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace341.brres" disc="/info/portrite/InfFace341.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace342.brres" disc="/info/portrite/InfFace342.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace343.brres" disc="/info/portrite/InfFace343.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace344.brres" disc="/info/portrite/InfFace344.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace345.brres" disc="/info/portrite/InfFace345.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace346.brres" disc="/info/portrite/InfFace346.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace361.brres" disc="/info/portrite/InfFace361.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace362.brres" disc="/info/portrite/InfFace362.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace363.brres" disc="/info/portrite/InfFace363.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace364.brres" disc="/info/portrite/InfFace364.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace365.brres" disc="/info/portrite/InfFace365.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace371.brres" disc="/info/portrite/InfFace371.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace372.brres" disc="/info/portrite/InfFace372.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace373.brres" disc="/info/portrite/InfFace373.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace374.brres" disc="/info/portrite/InfFace374.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace375.brres" disc="/info/portrite/InfFace375.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace376.brres" disc="/info/portrite/InfFace376.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace377.brres" disc="/info/portrite/InfFace377.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace378.brres" disc="/info/portrite/InfFace378.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace379.brres" disc="/info/portrite/InfFace379.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace380.brres" disc="/info/portrite/InfFace380.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace381.brres" disc="/info/portrite/InfFace381.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace382.brres" disc="/info/portrite/InfFace382.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace401.brres" disc="/info/portrite/InfFace401.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace402.brres" disc="/info/portrite/InfFace402.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace403.brres" disc="/info/portrite/InfFace403.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace404.brres" disc="/info/portrite/InfFace404.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace405.brres" disc="/info/portrite/InfFace405.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace406.brres" disc="/info/portrite/InfFace406.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace431.brres" disc="/info/portrite/InfFace431.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace432.brres" disc="/info/portrite/InfFace432.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace433.brres" disc="/info/portrite/InfFace433.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace434.brres" disc="/info/portrite/InfFace434.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace435.brres" disc="/info/portrite/InfFace435.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace436.brres" disc="/info/portrite/InfFace436.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace451.brres" disc="/info/portrite/InfFace451.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace452.brres" disc="/info/portrite/InfFace452.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace453.brres" disc="/info/portrite/InfFace453.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace454.brres" disc="/info/portrite/InfFace454.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace455.brres" disc="/info/portrite/InfFace455.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace456.brres" disc="/info/portrite/InfFace456.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace461.brres" disc="/info/portrite/InfFace461.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace462.brres" disc="/info/portrite/InfFace462.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace463.brres" disc="/info/portrite/InfFace463.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace464.brres" disc="/info/portrite/InfFace464.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace465.brres" disc="/info/portrite/InfFace465.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace601.brres" disc="/info/portrite/InfFace601.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace621.brres" disc="/info/portrite/InfFace621.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace631.brres" disc="/info/portrite/InfFace631.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace641.brres" disc="/info/portrite/InfFace641.brres" />
+		<file external="/brawlmods/brawlminus/info/portrite/InfFace651.brres" disc="/info/portrite/InfFace651.brres" />
+		<file external="/brawlmods/brawlminus/info/Info.brres" disc="/info/Info.brres" />
+		<file external="/brawlmods/brawlminus/menu/strap/StrapEn.pac" disc="/menu/strap/StrapEn.pac" />
+		<file external="/brawlmods/brawlminus/menu2/mu_menumain.pac" disc="/menu2/mu_menumain_en.pac" />
+		<file external="/brawlmods/brawlminus/menu2/sc_title.pac" disc="/menu2/sc_title_en.pac" />
+		<file external="/brawlmods/brawlminus/module/ft_diddy.rel" disc="/module/ft_diddy.rel" />
+		<file external="/brawlmods/brawlminus/module/ft_lucas.rel" disc="/module/ft_lucas.rel" />
+		<file external="/brawlmods/brawlminus/module/ft_ness.rel" disc="/module/ft_ness.rel" />
+		<file external="/brawlmods/brawlminus/module/st_fzero.rel" disc="/module/st_fzero.rel" />
+		<file external="/brawlmods/brawlminus/module/st_jungle.rel" disc="/module/st_jungle.rel" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGDONKEY.pac" disc="/stage/melee/STGDONKEY.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGDXGREENS.pac" disc="/stage/melee/STGDXGREENS.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGDXYORSTER.pac" disc="/stage/melee/STGDXYORSTER.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGHALBERD.pac" disc="/stage/melee/STGHALBERD.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGJUNGLE.PAC" disc="/stage/melee/STGJUNGLE.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGMADEIN.PAC" disc="/stage/melee/STGMADEIN.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGMARIOPAST_00.pac" disc="/stage/melee/STGMARIOPAST_00.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGMARIOPAST_01.pac" disc="/stage/melee/STGMARIOPAST_01.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGNORFAIR.pac" disc="/stage/melee/STGNORFAIR.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGPALUTENA.pac" disc="/stage/melee/STGPALUTENA.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGPIRATES.pac" disc="/stage/melee/STGPIRATES.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGSTADIUM.pac" disc="/stage/melee/STGSTADIUM.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGTENGAN_1.PAC" disc="/stage/melee/STGTENGAN_1.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGTENGAN_2.pac" disc="/stage/melee/STGTENGAN_2.pac" />
+		<file external="/brawlmods/brawlminus/stage/melee/STGTENGAN_3.pac" disc="/stage/melee/STGTENGAN_3.pac" />
+		<file external="/brawlmods/brawlminus/system/common.pac" disc="/system/common_en.pac" />
+		<file external="/brawlmods/brawlminus/system/common2.pac" disc="/system/common2_en.pac" />
+		<file external="/brawlmods/brawlminus/system/common3.pac" disc="/system/common3_en.pac" />
+		<file external="/brawlmods/brawlminus/system/common4.pac" disc="/system/common4_en.pac" />
+		<file external="/brawlmods/brawlminus/system/common5.pac" disc="/system/common5_en.pac" />
+	</patch>
+	<patch id="brawlminussimple">
+		<memory valuefile="/codes/RSBE01.gct" offset="0x00570000" />
+	</patch>
+	<patch id="ocarinabase_vi">
 		<memory ocarina="true" value="7CE33B783887003438A7003838C7004C" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_kpad">
+	<patch id="ocarinabase_kpad">
 		<memory ocarina="true" value="9A3F005E38AE0080389FFFFC7E0903A6" offset="0x000018A8" />
 		<memory ocarina="true" value="801D0060901E0060801D0064901E0064801D0068901E0068" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_joypad">
+	<patch id="ocarinabase_joypad">
 		<memory ocarina="true" value="3AB500013A73000C2C1500043B18000C" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_gxdraw">
+	<patch id="ocarinabase_gxdraw">
 		<memory ocarina="true" value="3CA0CC01380000613C80450098058000" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_gxflush">
+	<patch id="ocarinabase_gxflush">
 		<memory ocarina="true" value="90010014800305FC2C00000041820008" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_ossleep">
+	<patch id="ocarinabase_ossleep">
 		<memory ocarina="true" value="90A402E0806502E4908502E42C030000" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02 base_axnextframe">
+	<patch id="ocarinabase_axnextframe">
 		<memory ocarina="true" value="3800000E7FE3FB78B005000038800080" offset="0x000018A8" />
 	</patch>
-	<patch id="ocarina pm 3.02">
+	<patch id="ocarina">
 		<memory valuefile="/riivolution/codehandler.bin" offset="0x00001800" />
 		<memory offset="0x00001CDE" value="8057" />
 		<memory offset="0x00001CE2" value="0000" />
